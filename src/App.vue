@@ -1,12 +1,17 @@
 <template>
     <div id="app">
+      <topCard></topCard>
       <router-view/>
     </div>
 </template>
 
 <script>
+import topCard from './components/topCard.vue';
 export default {
   name: 'App',
+  components: {
+    topCard
+  }
 }
 </script>
 

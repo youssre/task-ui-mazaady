@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <div class="card py-1 flex-row justify-content-center align-items-center gap-lg-5 gap-md-3">
-        <router-link to="/1" tag="a" class="link p-1">
+        <router-link to="/router1" class="link p-1">
             <!-- <img class="p-1" src="@/assets/Group.svg" alt=""> -->
             <svg xmlns="http://www.w3.org/2000/svg" width="25.212" height="25.212" 
                 viewBox="0 0 24.212 24.212">
@@ -14,7 +14,7 @@
             </svg>
             <span>الدفعه والتساهيل</span>
         </router-link>
-        <router-link to="/2" tag="a" class="link p-1">
+        <router-link to="/router2" class="link p-1">
             <!-- <img class="p-1" src="@/assets/Icon-feather-home.svg" alt=""> -->
             <svg xmlns="http://www.w3.org/2000/svg" width="21.891" height="24.212" viewBox="0 0 21.891 24.212">
                 <g id="Icon_feather-home" data-name="Icon feather-home" transform="translate(0.5 0.5)">
@@ -25,7 +25,7 @@
             </svg>
             <span>الدفعه والتساهيل</span>
         </router-link>
-        <router-link to="/3" class="link p-1">
+        <router-link to="/router3" class="link p-1">
             <!-- <img class="p-1" src="@/assets/finance-report.svg" alt=""> -->
             <svg xmlns="http://www.w3.org/2000/svg" id="finance-report" width="20.223" height="23.212" viewBox="0 0 20.223 23.212">
                 <path id="Path_2766" data-name="Path 2766" d="M73.167,28.241a.357.357,0,0,0-.256-.108H63.947a1.887,1.887,0,0,0-1.885,1.885v1.694h-2.7A1.887,1.887,0,0,0,57.478,33.6V49.46a1.887,1.887,0,0,0,1.885,1.885h11.87a1.887,1.887,0,0,0,1.885-1.885V47.766h2.7A1.887,1.887,0,0,0,77.7,45.882V33.057a.356.356,0,0,0-.1-.248Zm.1,1.128L76.5,32.7h-2.76a.474.474,0,0,1-.474-.474ZM72.4,49.461a1.173,1.173,0,0,1-1.171,1.171H59.363a1.173,1.173,0,0,1-1.171-1.171V33.6a1.173,1.173,0,0,1,1.171-1.171h2.7V45.882a1.887,1.887,0,0,0,1.885,1.885H72.4v1.694Zm3.413-2.408H63.947a1.173,1.173,0,0,1-1.171-1.171V30.018a1.173,1.173,0,0,1,1.171-1.171h8.608v3.38a1.188,1.188,0,0,0,1.187,1.187h3.246V45.882a1.173,1.173,0,0,1-1.171,1.171Z" 
@@ -35,7 +35,7 @@
             </svg>
             <span>الدفعه والتساهيل</span>
         </router-link>
-        <router-link to="/4" class="link p-1">
+        <router-link to="/router4" class="link p-1">
             <!-- <img  class="p-1" src="@/assets/calculator.svg" alt=""> -->
             <svg xmlns="http://www.w3.org/2000/svg" width="23.212" height="23.212" viewBox="0 0 23.212 23.212">
                 <path id="calculator" d="M5.748,7.858H6.8V8.913h0a.527.527,0,0,0,.528.527h0a.527.527,0,0,0,.527-.528V7.858H8.913a.528.528,0,1,0,0-1.055H7.858V5.748a.528.528,0,0,0-1.055,0V6.8H5.748a.528.528,0,0,0,0,1.055Zm.837,10.023L5.466,19a.527.527,0,1,0,.746.746l1.119-1.119L8.45,19.746A.527.527,0,0,0,9.2,19L8.076,17.881,9.2,16.762l.008-.008a.527.527,0,0,0-.754-.738L7.331,17.135,6.212,16.017,6.2,16.009a.527.527,0,1,0-.738.754ZM19.464,6.8H16.3a.528.528,0,0,0,0,1.055h3.165a.528.528,0,0,0,0-1.055ZM16.3,16.826h3.165a.528.528,0,0,0,0-1.055H16.3a.528.528,0,0,0,0,1.055ZM21.047,1H4.165A3.169,3.169,0,0,0,1,4.165V21.047a3.169,3.169,0,0,0,3.165,3.165H21.047a3.169,3.169,0,0,0,3.165-3.165V4.165A3.169,3.169,0,0,0,21.047,1ZM12.078,23.157H4.165a2.113,2.113,0,0,1-2.11-2.11V13.134H12.078Zm0-11.078H2.055V4.165a2.113,2.113,0,0,1,2.11-2.11h7.913Zm11.078,8.968a2.113,2.113,0,0,1-2.11,2.11H13.134V13.134H23.157Zm0-8.968H13.134V2.055h7.913a2.113,2.113,0,0,1,2.11,2.11ZM16.3,19.992h3.165a.528.528,0,0,0,0-1.055H16.3a.528.528,0,1,0,0,1.055Z"
@@ -43,7 +43,7 @@
             </svg>
             <span>الدفعه والتساهيل</span>
         </router-link>
-        <router-link to="/5" class="link p-1">
+        <router-link to="/router5" class="link p-1">
             <!-- <img class="p-1" src="@/assets/Icon-feather-layers.svg" alt=""> -->
             <svg xmlns="http://www.w3.org/2000/svg" width="24.554" height="24.212" viewBox="0 0 24.554 24.212">
                 <g id="Icon_feather-layers" data-name="Icon feather-layers" transform="translate(0.671 0.5)">
@@ -74,7 +74,7 @@
             </svg>
             <span>الدفعه والتساهيل</span>
         </router-link>
-        <router-link to="/6" class="link p-1">
+        <router-link to="/router6" class="link p-1">
             <!-- <img class="p-1" src="@/assets/history.svg" alt=""> -->
             <svg xmlns="http://www.w3.org/2000/svg" id="history_2_" data-name="history (2)" width="22.654" height="23.212" viewBox="0 0 22.654 23.212">
                 <path id="Path_2774" data-name="Path 2774" d="M29.292,16.287H16.2a.454.454,0,1,1,0-.907H29.292a.454.454,0,1,1,0,.907Zm0,3.95H16.2a.454.454,0,0,1,0-.907H29.292a.454.454,0,1,1,0,.907Zm-8.309,3.955H16.194a.454.454,0,0,1,0-.907h4.789a.454.454,0,0,1,0,.907Zm-1.261,3.95H16.194a.454.454,0,0,1,0-.907h3.529a.454.454,0,1,1,0,.907Zm8.767,6.381A5.946,5.946,0,1,1,32.7,32.79,5.941,5.941,0,0,1,28.489,34.524Zm0-10.976a5.039,5.039,0,1,0,3.573,1.468A5.034,5.034,0,0,0,28.489,23.548Z" transform="translate(-11.799 -11.312)" fill="currentcolor"/>
@@ -84,7 +84,7 @@
             </svg>
             <span>الدفعه والتساهيل</span>
         </router-link>
-        <router-link  to="/7" class="link p-1">
+        <router-link  to="/router7" class="link p-1">
             <!-- <img class="p-1" src="@/assets/ticket.svg" alt=""> -->
             <svg xmlns="http://www.w3.org/2000/svg" width="23.194" height="23.212" viewBox="0 0 23.194 23.212">
                 <g id="ticket" transform="translate(-72.187 -72)">
@@ -162,5 +162,31 @@ svg {
     color: white;
     margin: 5px 10px;
 } 
-/* router-link-active router-link-exact-active */
+
+@media only screen and (max-width: 800px){
+    .link{
+        margin: 5px 10px;
+    }
+    .link span{
+        display: none;
+    }
+    .link:hover > span{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px){
+    .link{
+        margin: 5px;
+    }
+    svg {
+        width: 20px;
+        height: 22px;
+    }
+    .link:hover > svg {
+        margin: 4px 7px;
+    }
+    .router-link-exact-active svg{
+        margin: 4px 7px;
+    }
+}
 </style>
